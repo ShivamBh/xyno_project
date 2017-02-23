@@ -53,15 +53,40 @@
 		</div>
 		<div class="log_in_form">
 			<div class="form-wrap">
-				<h2>Please Log In</h2>
-				<form action="" method="POST" class="login">
-					<p class="field_name">Username</p>
-					<input type="text" placeholder="Username/Email" required="required">
-					<input type="password" placeholder="Password" required="required">
-					<input type="checkbox" name="remember"> Remember me
-					<button type="submit" >Login</button>
+				
+				<form action="" method="post" class="form-basic">
+				    <h1>
+				        <span>Please Log In</span>
+				    </h1>
+				    <label>
+				        <span>Username :</span>
+				        <input id="name" type="text" name="email" placeholder="username or email" />
+				    </label>
+				    
+				    <label>
+				        <span>Password:</span>
+				        <input id="email" type="password" name="password" placeholder="password" />
+				    </label>
+				    
+				    <label>
+				         <span style="float: none;">Remember me</span>
+				        <input type="checkbox" value="remember" /> 
+
+				    </label>
+				       
+				     <label>
+				        <span>&nbsp;</span> 
+				        <input type="button" class="button" value="Login" /> 
+				    </label>
+				    <div class="external_links">
+				    	<div class="register">
+				    		<a href="#">Register</a>
+				    		<a href="#">Forgot password</a>
+				    	</div>
+				    </div>    
 				</form>
 			</div>
+
 		</div>
 	</div>
     

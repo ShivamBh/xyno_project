@@ -180,22 +180,101 @@ body {
 }
 
 .log_in_form {
-	height: 100vh;
+	height: 80vh;
 	width: 100vw;
 	position: relative;
 }
 
 .form-wrap {
-	height: 480px;
-	width: 400px;
-	background-color: #FFF;
+	width: 500px;
 	margin: 0 auto;
 	position: relative;
-	top: 20%;
+	top: 10%;
 	box-shadow: -4px 7px 19px -4px rgba(122,49,10,1);
 }
 
 .form-wrap h2 {
 	padding-top: 10px;
 	text-align: center;
+}
+
+.form-basic {
+	max-width: 500px;
+	background-color: #f7f7f7;
+	padding: 25px 15px 20px 20px;
+	border:1px solid #E4E4E4;
+}
+
+.form-basic h1 {
+	font-size: 24px;
+	padding: 0 0 10px 40px;
+	display: block;
+	border-bottom: 1px solid #E4E4E4;
+	color: #888;
+}
+
+.form-basic h1 span {
+	display: block;
+	
+}
+
+.form-basic label {
+	display: block;
+	margin: 0;
+	padding: 15px 0 10px 0;
+}
+
+.form-basic label > span {
+	float: left;
+	width: 20%;
+	text-align: right;
+	padding-right: 10px;
+	margin-top: 10px;
+	color: #888;
+}
+
+.form-basic input[type="text"],
+.form-basic input[type="password"] {
+	
+	border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.form-basic .button {
+	background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    cursor: pointer;
+}
+
+.form-basic .button:hover {
+	background-color: #cf7a7a;
+}
+
+.external_links {
+	padding: 10px 0 10px 0;
+}
+
+.external_links .register a {
+	padding: 10px;
+}
+
+.register-form {
+	max-width: 700px;
+	margin: 0 auto;
+	height: 100vh;
 }
